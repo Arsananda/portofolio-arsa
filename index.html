@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Tambahkan Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Beranda</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> Tentang</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Pendidikan</a></li>
+                <li><a href="#skills"><i class="fas fa-cogs"></i> Keterampilan</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Proyek</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Selamat Datang di Portofolio Saya</h1>
+            <p>Saya adalah mahasiswa yang bersemangat dalam prodi INFORMATIKA</p>
+        </section>
+
+        <section id="about">
+            <div class="profile-container">
+                <img src="foto arsa.jpeg" alt="Foto Profil" class="profile-image">
+                <div class="profile-text">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah mahasiswa 2023 di Universitas Ahmad Dahlan , Saya sedang berkuliah di jurusan INFORMATIKA. Saya memiliki minat dalam membuat website.</p>
+        </section>
+
+        <section id="education">
+            <h2>Pendidikan</h2>
+            <ul>
+                <li>Universitas Ahmad Dahlan - INFORMATIKA (2023 - sekarang)</li>
+                <li>SMA IT ABU BAKAR BOARDING SCHOOL KULON PROGO</li>
+                <LI>SMP IT RAUDHATUL ULUM </LI>
+                <LI>SD N 142 OKU</LI>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Keterampilan</h2>
+            <ul>
+                <li>DAPAT MENGGUNAKAN BAHASA C & C++</li>
+                <li>DAPAT MENGGUNAKAN BAHASA HTML</li>
+                <li>DAPAT MENGGUNAKAN BAHASA CSS</li>
+                <li>DAPAT MENGGUNAKAN BAHASA javaScript</li>
+                <LI>DAPAT MENGGUNAKAN BAHASA PHP</LI>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Proyek Akademik dan Personal</h2>
+            <div class="project-items">
+                <? php include 'project_items.php'; ?>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Hubungi Saya</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Levin Arsananda" required>
+                <input type="email" name="email" placeholder="arsanandaaa@gmail.com" required>
+                <textarea name="message" placeholder="TETAP SEMANGAT APAPUN YANG TERJADI" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Levin Arsananda. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
